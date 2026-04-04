@@ -28,7 +28,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/nitish-17/Timebox.git](https://github.com/nitish-17/Timebox.git)
+    git clone https://github.com/nitish-17/Timebox.git
     ```
 2.  Navigate into the project directory:
     ```bash
@@ -63,7 +63,7 @@ npm install -g serve
 Run the following command to serve the `dist` folder on port 5173 and name the process `timebox`:
 
 ```
-pm2 start serve --name "timebox" -- -s dist -l 5173
+pm2 start "serve -s dist -l 5173" --name "timebox"
 ```
 
 ### 4. Enable Auto-Start on Boot
@@ -96,8 +96,6 @@ If you ever need to check on your app, stop it, or view logs, open a terminal an
 - **Delete the process:** `pm2 delete timebox`
 
 > **💡 Important Note for Updates:** > If you make changes to your code, those changes will not appear automatically. You must rebuild the project and restart the PM2 process:
->
-> Bash
 >
 > ```
 > npm run build
