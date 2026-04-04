@@ -38,9 +38,9 @@ Make sure you have Node.js and npm installed on your machine.
     ```bash
     npm install
     ```
-4.  Build the project for production (creates the `dist` folder):
+4.  Start the development server (Optional):
     ```bash
-    npm run build
+    npm run dev
     ```
 
 ---
@@ -49,9 +49,15 @@ Make sure you have Node.js and npm installed on your machine.
 
 To run this application continuously in the background—even after you close your terminal or restart your computer—we will use **PM2** (a process manager) and **serve** (a static file server).
 
-### 2. Install Global Tools
+### 1. Build the project (creates the `dist` folder):
 
-Install PM2 and serve globally on your machine:
+```bash
+npm run build
+```
+
+### 2. Install pm2
+
+Install pm2 and serve globally on your machine:
 
 ```bash
 npm install -g pm2
