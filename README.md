@@ -1,10 +1,6 @@
-> **🚀 Deployed Website:** [https://nitish-17.github.io/Timebox/](https://nitish-17.github.io/Timebox/)
-
----
-
-![App Demo](public/demo.gif)
-
 # ⏱️ Timebox
+
+> **🚀 Deployed Website:** [https://nitish-17.github.io/Timebox/](https://nitish-17.github.io/Timebox/)
 
 ## 📖 About the Project
 
